@@ -98,3 +98,9 @@ if df is not None:
     b64 = base64.b64encode(csv_exp.encode()).decode()  # some strings <-> bytes conversions necessary here
     href = f'<a href="data:file/csv;base64,{b64}">Download CSV File</a> (right-click and save as ** &lt;forecast_name&gt;.csv**)'
     st.markdown(href, unsafe_allow_html=True)
+
+
+st.markdown(""" <style>
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+</style> """, unsafe_allow_html=True)
