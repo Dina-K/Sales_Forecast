@@ -102,6 +102,5 @@ if df is not None:
 
 st.markdown(""" <style>
 #MainMenu {visibility: hidden;}
-#stActionButton {visibility: hidden;}
 footer {visibility: hidden;}
 </style> """, unsafe_allow_html=True)
