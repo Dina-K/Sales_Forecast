@@ -22,11 +22,13 @@ st.title('Time Series Forecasting')
 #st.write('Import the time series CSV file. It should have two columns labelled as "ds" and "y". The "ds" column should be of DateTime format by Pandas. The "y" column must be numeric representing the measurement to be forecasted.')
 
 #Insert a file uploader widget
-df = st.file_uploader('Upload here data here', type='csv')
+#df = st.file_uploader('Upload here data here', type='csv')
 
-st.info( f"""
-    👆 Upload a .csv file first. Sample to try: [peyton_manning_wiki_ts.csv](https://raw.githubusercontent.com/zachrenwick/streamlit_forecasting_app/master/example_data/example_wp_log_peyton_manning.csv)
-    """)
+#st.info( f"""
+#   👆 Upload a .csv file first. Sample to try: [peyton_manning_wiki_ts.csv](https://raw.githubusercontent.com/zachrenwick/streamlit_forecasting_app/master/example_data/example_wp_log_peyton_manning.csv)
+#    """)
+
+df='https://raw.githubusercontent.com/Dina-K/Sales_Forecast/main/AMZN_real_changed.csv'
 
 #read the data
 if df is not None:
