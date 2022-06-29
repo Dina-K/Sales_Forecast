@@ -33,8 +33,7 @@ df='https://raw.githubusercontent.com/Dina-K/Sales_Forecast/main/AMZN_real_chang
 #read the data
 if df is not None:
     data = pd.read_csv(df)
-    #data=df
-    st.write(data)
+    #st.write(data)
     data['ds'] = pd.to_datetime(data['ds'], errors='coerce')
     #display the data
     st.write(df)
