@@ -28,7 +28,7 @@ st.title('Time Series Forecasting')
 #   👆 Upload a .csv file first. Sample to try: [peyton_manning_wiki_ts.csv](https://raw.githubusercontent.com/zachrenwick/streamlit_forecasting_app/master/example_data/example_wp_log_peyton_manning.csv)
 #    """)
 
-df='https://raw.githubusercontent.com/Dina-K/Sales_Forecast/main/AMZN_real_changed.csv'
+df='https://raw.githubusercontent.com/Dina-K/Sales_Forecast/main/real_data.csv'
 
 #read the data
 if df is not None:
